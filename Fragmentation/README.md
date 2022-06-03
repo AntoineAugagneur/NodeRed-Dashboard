@@ -1,4 +1,4 @@
-# LoRaWAN Fragmented Data Block Transport
+# LoRaWAN Fragmented Data Block Transport dashboard
 Antoine AUGAGNEUR, USMB 2022
 
 ## How to use it ?

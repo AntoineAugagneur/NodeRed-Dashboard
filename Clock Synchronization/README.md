@@ -1,4 +1,5 @@
 # LoRaWAN Clock Synchronization dashboard
+Antoine AUGAGNEUR, USMB 2022
 
 ## How to use it ?
 * Download the .json file
@@ -33,7 +34,7 @@ Then the command is created. Finally, the user shall copy the command and past i
   - Fcnt
   - Port
   - Payload
-- If the uplink is a command in relation with the messaging package, the dashboard shows:
+- If the uplink is a command in relation with the messaging package, the Uplink area shows:
   - The _**Command type**_ (the name of the command received)
   - The _**Command analysis**_ (the command’s payload is analyzed and human-readable conclusions are displayed)
 
