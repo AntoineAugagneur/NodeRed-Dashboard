@@ -23,19 +23,20 @@ Then the command is created. Finally, the user shall copy the command and past i
 
 ### DataFragment auto
 This area is a special one.
+
+#### DataFragment auto information
 - It is possible to launch a fragmentation session thanks to this area.
 Then the dashboard will send a fragment automatically each 7 seconds (540 msg/hour).
 Why 540 msg/hour? This sending period is authorized only if:
   - Your NS processes downlinks in the **869.525MHz channel**. There is a 10% (not 1%!) duty-cycle.
   - The SF used is **SF9** (DR3).
   - The payload size is **115-bytes** (it is the maximum). Then, the time on air is 65,6 sec.
-
 - To be noted:
   - If you do not respect these sending parameters, please adjust the **7-seconds period** (var INTERVAL) in the _**Get data & Display**_ function node.
   - If your payload is 115-bytes long, it means the fragment size you can send is **112-bytes** long (115-bytes = 3-bytes header of DataFragment command + 112-bytes fragment)
   - Depending on the NS you use, a policy could affect your sending period (e.i.: TTN fair access policy)
 
-- How to use the Data Fragment auto?
+#### How to use the Data Fragment auto?
   - Upload your file containing the fragments to send. **Only .csv files are accepted**.
 To generate a .csv file containing the fragments of your firmware, see the Fragmentation tool available here: [ https://github.com/AntoineAugagneur/Tools ]
   - Check the _**Upload information**_ field to see if the upload process imported the right number of fragments.
