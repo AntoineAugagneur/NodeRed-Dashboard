@@ -37,7 +37,7 @@ Why 540 msg/hour? This sending period is authorized only if:
 
 - How to use the Data Fragment auto?
   - Upload your file containing the fragments to send. **Only .csv files are accepted**.
-To generate a .csv file continaing the fragment of your firmware, see the Fragmentation tool available here: [ https://github.com/AntoineAugagneur/Tools ]
+To generate a .csv file containing the fragment of your firmware, see the Fragmentation tool available here: [ https://github.com/AntoineAugagneur/Tools ]
   - Check the _**Upload information**_ field to see if the upload process imported the right number of fragments.
   - Fill the DevEUI and Session (according to the Session number you’ve programmed in your end-device). Finally, setup the session.
   - When the session is ready for launch, click on _**START**_ button. The progression is displayed on a percentage bar.
