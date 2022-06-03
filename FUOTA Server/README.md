@@ -1,4 +1,4 @@
-# LoRaWAN Clock Synchronization dashboard
+# LoRaWAN Firmware Management dashboard
 
 ## How to use it ?
 * Download the .json file

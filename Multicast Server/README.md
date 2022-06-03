@@ -1,4 +1,4 @@
-# LoRaWAN Clock Synchronization dashboard
+# LoRaWAN Remote Multicast dashboard
 
 ## How to use it ?
 * Download the .json file

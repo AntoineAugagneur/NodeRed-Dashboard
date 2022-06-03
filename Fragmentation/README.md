@@ -1,4 +1,4 @@
-# LoRaWAN Clock Synchronization dashboard
+# LoRaWAN Fragmented Data Block Transport
 
 ## How to use it ?
 * Download the .json file
