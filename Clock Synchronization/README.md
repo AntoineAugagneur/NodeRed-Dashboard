@@ -14,11 +14,11 @@
 
 ## Working philosophy
 
-The dashboard is divided areas.
+The dashboard is divided in areas.
 
 ### Commands generators
 These areas have a command name as title. They generate the payload to send. The user only needs to set the parameters of the command (if needed).
-Then the command is created. Finally, the user shall copy the command and past it in the _**Payload_** field of the **Downlink area**.
+Then the command is created. Finally, the user shall copy the command and past it in the _**Payload**_ field of the **Downlink area**.
 
 ### Downlink area
 - This area gets 3 parameters:
