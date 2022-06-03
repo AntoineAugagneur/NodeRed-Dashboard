@@ -10,7 +10,7 @@
 - Add YOUR MQTT broker settings in the MQTT nodes.
 - Set YOUR topic (to publish on) in the "JSON downlink setup" node.
 - Set YOUR topic (to subscribe to) in the "Topic to subscribe" node.
-- In the function nodes, there is JS code. Pay attention to the lines with the **[/!\]** symbol.
+- In the function nodes, there is JS code. Pay attention to the lines with the **"//!\\" symbol**.
 
 ## In order to use this tool effectively...
 - ... check the video demonstrations. Available here: [https://www.youtube.com/watch?v=i_WMjN9jRvk]
