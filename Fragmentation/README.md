@@ -1,5 +1,5 @@
 # LoRaWAN Fragmented Data Block Transport
-Proposed by: Antoine AUGAGNEUR, USMB 2022
+Antoine AUGAGNEUR, USMB 2022
 
 ## How to use it ?
 * Download the .json file
