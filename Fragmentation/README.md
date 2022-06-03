@@ -32,6 +32,7 @@ Why 540 msg/hour? This sending period is authorized only if:
 - To be noted:
   - If you do not respect these sending parameters, please adjust the **7-seconds period** (var INTERVAL) in the _**Get data & Display**_ function node.
   - If your payload is 115-bytes long, it means the fragment size you can send is **112-bytes** long (115-bytes = 3-bytes header of DataFragment command + 112-bytes fragment)
+  - Depending on the NS you use, a policy could affect your sending period (e.i.: TTN fair access policy)
 
 ### Downlink area
 - This area gets 3 parameters:
