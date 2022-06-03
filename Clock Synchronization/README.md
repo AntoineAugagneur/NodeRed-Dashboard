@@ -16,24 +16,24 @@
 
 The dashboard is divided areas.
 
-- Commands generators
+### Commands generators
 These areas have a command name as title. They generate the payload to send. The user only needs to set the parameters of the command (if needed).
 Then the command is created. Finally, the user shall copy the command and past it in the _**Payload_** field of the **Downlink area**.
 
-- Downlink area
-This area gets 3 parameters:
+### Downlink area
+- This area gets 3 parameters:
   - DevEUI
   - Port
-  - Paylaod
-By clicking on the _**SEND**_ button, the tool builds the payload to send via MQTT protocol and send it to the NS.
+  - Payload
+- By clicking on the _**SEND**_ button, the tool builds the payload to send via MQTT protocol and send it to the NS.
 
-- Uplink area
-When an uplink is received, basic information about this message is displayed:
+### Uplink area
+- When an uplink is received, basic information about this message is displayed:
   - DevEUI
   - Fcnt
   - Port
-  - Payload)
-If the uplink is a command in relation with the messaging package, the dashboard shows:
+  - Payload
+- If the uplink is a command in relation with the messaging package, the dashboard shows:
   - The _**Command type**_ (the name of the command received)
   - The _**Command analysis**_ (the command’s payload is analyzed and human-readable conclusions are displayed)
 
