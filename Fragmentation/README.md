@@ -25,12 +25,12 @@ This area is a special one.
 - It is possible to launch a fragmentation session thanks to this area.
 Then the dashboard will send a fragment automatically each 7 seconds (540 msg/hour).
 Why 540 msg/hour? This sending period is authorized only if:
-  - Your NS processes downlinks in the 869.525MHz channel. There is a 10% (not 1%!) duty-cycle.
-  - The SF used is SF9 (DR3).
-  - The payload size is 115-bytes (it is the maximum). Then, the time on air is 65,6 sec.
+  - Your NS processes downlinks in the **869.525MHz channel**. There is a 10% (not 1%!) duty-cycle.
+  - The SF used is **SF9** (DR3).
+  - The payload size is **115-bytes** (it is the maximum). Then, the time on air is 65,6 sec.
 - To be noted:
   - If you do not respect these sending parameters, please adjust the **7-seconds period** (var INTERVAL) in the _**Get data & Display**_ function node.
-  - If your payload is 115-bytes long, it means the fragment size you can send is 112-bytes long (115-bytes = 3-bytes header of DataFragment command + 112-bytes fragment)
+  - If your payload is 115-bytes long, it means the fragment size you can send is **112-bytes** long (115-bytes = 3-bytes header of DataFragment command + 112-bytes fragment)
 
 ### Downlink area
 - This area gets 3 parameters:
