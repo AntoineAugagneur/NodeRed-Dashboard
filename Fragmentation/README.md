@@ -47,7 +47,7 @@ Why 540 msg/hour? This sending period is authorized only if:
   - Fcnt
   - Port
   - Payload
-- If the uplink is a command in relation with the messaging package, the dashboard shows:
+- If the uplink is a command in relation with the messaging package, the Uplink area shows:
   - The _**Command type**_ (the name of the command received)
   - The _**Command analysis**_ (the command’s payload is analyzed and human-readable conclusions are displayed)
 
