@@ -13,4 +13,4 @@ Antoine AUGAGNEUR, USMB 2022
 - Set YOUR topic (to subscribe to) in the "Topic to subscribe" node.
 
 ## Dashboard preview
-![Preview](/Demo%20LRWAN1/Demo_lrwan1.jpg)
+![Preview](/Demo_lrwan1.png)
